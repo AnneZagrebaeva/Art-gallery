@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Art gallery</title>
+  
+</head>
+<body>
+
+  <div class="wrapper">
+      <div class="header">
+        <div class="open" onclick="show()">
+          &#9776;
+        </div>
+           Художники Возрождения
+
+           <div class="underlay">
+            
+           </div>
+
+           <div class="menu">
+
+            <div class="close" onclick="hide()">
+              &#10006;
+            </div>
+
+            <div>
+
+            <div class="mobmenu">
+                <a href="#1">Босх</a>
+              
+            </div>
+            <div class="mobmenu">
+                <a href="#2">Дюрер</a>
+            
+            </div>
+            <div class="mobmenu">
+                <a href="#3">Брейгель</a>
+            
+            </div>
+            <div class="mobmenu">
+              <a href="#4">Кранах</a>
+          
+            </div>
+            <div class="mobmenu">
+              <a href="#5">Ван Эйк</a>
+        
+            </div>
+            <div class="mobmenu">
+              <a href="#6">Боттичелли</a>
+      
+            </div>
+            <div class="mobmenu">
+                <a href="#7">Гольбейн</a>
+    
+           </div>
+           <div class="mobmenu">
+              <a href="#8">Да Винчи</a>
+           </div>
+
+            </div>
+
+        </div>
+
+    </div>
+  
+    <div id="1" class="main">
+      <a href="artists/bosch.html" target="_blank">
+        <img src="images/11zon_cropped (9).png" alt="">
+      </a>
+       <p> Bosch</p>
+  </div>  
+  <div id="2" class="main">
+    <a href="artists/durer.html" target="_blank">
+    <img src="images/11zon_cropped (10).png" alt=""> </a>
+    <p> Durer</p>
+  </div> 
+    <div id="3" class="main">
+      <a href="artists/bruegel.html" target="_blank">
+        <img src="images/11zon_cropped (3).png" alt=""> </a>
+        <p> Bruegel</p>
+    </div> 
+  <div id="4" class="main">
+      <a href="artists/cranach.html" target="_blank"> 
+        <img src="images/11zon_cropped (4).png" alt=""> 
+      </a>
+       <p> Cranach</p>
+  </div>  
+    <div id="5" class="main">
+      <a href="artists/vanEyck.html" target="_blank">
+      <img src="images/11zon_cropped (7).png" alt=""> </a>
+      <p> van Eyck</p>
+    </div> 
+  <div id="6" class="main">
+     <a href="artists/botticelli.html" target="_blank">
+     <img src="images/11zon_cropped (11).png" alt=""> </a>
+      <p>Botticelli</p>
+  </div> 
+    <div id="7" class="main">
+      <a href="artists/holbein.html" target="_blank">
+      <img src="images/11zon_cropped (13).png" alt=""> </a>
+      <p>Holbein</p>
+  </div> 
+    <div id="8" class="main">
+      <a href="artists/davinci.html" target="_blank">
+      <img src="images/11zon_cropped (12).png" alt=""> </a>
+      <p>da Vinci</p>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+
+<script>
+    function show() {
+    $('.menu').css('right','0')
+
+    $('.underlay').css('display','block')
+
+    }
+
+    function hide() {
+    $('.menu').css('right','-300px')
+
+    $('.underlay').css('display','none')
+    }
+
+</script>
